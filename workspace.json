@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
-  "projects": {}
+  "projects": {
+    "customer-portal": "packages/customer-portal",
+    "customer-portal-e2e": "packages/customer-portal-e2e"
+  }
 }
